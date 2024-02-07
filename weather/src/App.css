@@ -42,34 +42,65 @@
 }
 
 /* src/App.css */
+/* src/App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
 .app {
   text-align: center;
-  margin: 20px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  margin: 50px;
 }
 
-input {
-  width: 100%;
+h1 {
+  color: #333;
 }
 
-.file-info {
+.search-container {
   margin-top: 20px;
 }
 
+input {
+  padding: 10px;
+  font-size: 16px;
+}
+
 button {
-  margin-top: 10px;
-  background-color: #2ecc71;
+  background-color: #3498db;
   color: #fff;
   padding: 10px 15px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
 }
 
 button:hover {
-  background-color: #27ae60;
+  background-color: #2980b9;
+}
+
+.error-message {
+  color: #ff0000;
+  margin-top: 10px;
+}
+
+.weather-info {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.weather-info h2 {
+  color: #333;
+}
+
+.weather-info p {
+  margin: 10px 0;
+  color: #333
 }
