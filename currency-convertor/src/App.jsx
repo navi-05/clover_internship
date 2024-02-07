@@ -4,8 +4,10 @@ import './App.css';
 
 const CurrencyConverterApp = () => {
   const [amount, setAmount] = useState(1);
+
   const [fromCurrency, setFromCurrency] = useState('USD');
   const [toCurrency, setToCurrency] = useState('EUR');
+  
   const [exchangeRate, setExchangeRate] = useState(null);
   const [convertedAmount, setConvertedAmount] = useState(null);
 
